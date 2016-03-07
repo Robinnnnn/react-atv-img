@@ -19,11 +19,9 @@ render(
   <div style={rootDivStyle}>
     <AtvImg
       layers={[
-        'http://kloc.pm/images/back.png',
-        'http://kloc.pm/images/front.png',
+        'http://i.imgur.com/RJYDwFk.png'
       ]}
-      staticFallback="http://kloc.pm/images/kloc-icon-flattened.jpg"
-      style={{ width: 320, height: 190 }}
+      style={{ width: 150, height: 150 }}
     />
   </div>,
   document.getElementById('root')
