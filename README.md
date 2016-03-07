@@ -1,9 +1,6 @@
 # react-atv-img
 A port of [@drewwilson](https://github.com/drewwilson)’s amazing [atvImg](https://github.com/drewwilson/atvImg) (Apple TV 3D parallax effect) library in React. It supports both touch and mouse events.
 
-## Install
-`npm install --save react-atv-img`
-
 ## Demo
 [http://keyanzhang.github.io/react-atv-img](http://keyanzhang.github.io/react-atv-img)
 
