@@ -9,6 +9,7 @@ export default class AtvImg extends Component {
     staticFallback: PropTypes.string,
     className: PropTypes.string,
     style: PropTypes.object,
+    shine: PropTypes.bool,
   };
 
   state = {
@@ -140,7 +141,7 @@ export default class AtvImg extends Component {
         <div style={{ ...styles.container, ...this.state.container }}>
           {this.renderShadow()}
           {this.renderLayers()}
-          {this.renderShine()}
+          {this.props.shine ? this.renderShine() : ""}
         </div>
       </div>
     );

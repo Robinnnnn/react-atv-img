@@ -22,6 +22,7 @@ render(
         'http://i.imgur.com/RJYDwFk.png'
       ]}
       style={{ width: 150, height: 150 }}
+      shine={false}
     />
   </div>,
   document.getElementById('root')

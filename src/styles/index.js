@@ -62,7 +62,7 @@ const styles = {
     right: 0,
     bottom: 0,
     borderRadius: 100,
-    // background: 'linear-gradient(135deg, rgba(255, 255, 255, .25) 0%, rgba(255, 255, 255, 0) 60%)',
+    background: 'linear-gradient(135deg, rgba(255, 255, 255, .25) 0%, rgba(255, 255, 255, 0) 60%)',
   },
 };
 
