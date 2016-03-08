@@ -10,6 +10,8 @@ export default class AtvImg extends Component {
     className: PropTypes.string,
     style: PropTypes.object,
     shine: PropTypes.bool,
+    xRotate: PropTypes.number,
+    yRotate: PropTypes.number,
   };
 
   state = {
@@ -43,8 +45,8 @@ export default class AtvImg extends Component {
     const offsetY = 0.52 - (pageY - offsets.top - bodyScrollTop) / rootElemHeight; // cursor position Y
     const dy = (pageY - offsets.top - bodyScrollTop) - rootElemHeight / 2; // center Y of container
     const dx = (pageX - offsets.left - bodyScrollLeft) - rootElemWidth / 2; // center X of container
-    const yRotate = (offsetX - dx) * (0.17 * wMultiple); // rotation for container Y
-    const xRotate = (dy - offsetY) * (0.1 * wMultiple); // rotation for container X
+    const yRotate = (offsetX - dx) * (this.props.yRotate * wMultiple); // rotation for container Y
+    const xRotate = (dy - offsetY) * (this.props.xRotate * wMultiple); // rotation for container X
 
     const arad = Math.atan2(dy, dx); // angle between cursor and center of container in RAD
 

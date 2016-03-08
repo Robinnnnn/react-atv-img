@@ -23,6 +23,8 @@ render(
       ]}
       style={{ width: 150, height: 150 }}
       shine={false}
+      yRotate={0.15}
+      xRotate={1}
     />
   </div>,
   document.getElementById('root')
